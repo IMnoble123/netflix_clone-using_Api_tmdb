@@ -48,7 +48,7 @@ class _BottomnavigationbarState extends State<Bottomnavigationbar> {
               label: 'Comming Soon',
               ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.favorite),
+              icon: Icon(Icons.emoji_emotions),
               label: 'Fast Laughs'
               ),
               BottomNavigationBarItem(
