@@ -68,7 +68,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.black,
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.grey[850],
         child: const Icon(Icons.shuffle),
       ),
       appBar: PreferredSize(

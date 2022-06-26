@@ -15,7 +15,7 @@ class _BottomnavigationbarState extends State<Bottomnavigationbar> {
   int _currentIndex = 0;
   final List pages = [
     const HomePage(),
-    const CommingSoon(),
+    const Commingsoon(),
     const Laugh(),
     const Dawnloads()
 
