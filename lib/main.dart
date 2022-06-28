@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:netflix/nav_screen/bottom_nav.dart';
+import 'package:netflix/Ui/spalish_screen.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue
       ),
-      home:const Bottomnavigationbar() ,
+      home: const lottiepage(),
     );
   }
 }

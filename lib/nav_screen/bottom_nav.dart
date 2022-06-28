@@ -4,14 +4,14 @@ import 'package:netflix/Ui/dawnloads.dart';
 import 'package:netflix/Ui/fast_laughs.dart';
 import 'package:netflix/Ui/home_page.dart';
 
-class Bottomnavigationbar extends StatefulWidget {
-  const Bottomnavigationbar({Key? key}) : super(key: key);
+class Bottomnavigationbarpae extends StatefulWidget {
+  const Bottomnavigationbarpae({Key? key}) : super(key: key);
 
   @override
-  State<Bottomnavigationbar> createState() => _BottomnavigationbarState();
+  State<Bottomnavigationbarpae> createState() => _BottomnavigationbarState();
 }
 
-class _BottomnavigationbarState extends State<Bottomnavigationbar> {
+class _BottomnavigationbarState extends State<Bottomnavigationbarpae> {
   int _currentIndex = 0;
   final List pages = [
     const HomePage(),

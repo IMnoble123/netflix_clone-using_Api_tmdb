@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
       trendingmovies = trendingresult['results'];
       topratedmovies = topratedresult['results'];
       tv = tvresult['results'];
-      upcomingmovoies =  upcomingresult['results'];
+      upcomingmovoies = upcomingresult['results'];
     });
     print(upcomingmovoies);
   }
@@ -68,8 +68,12 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.black,
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: Colors.grey[850],
-        child: const Icon(Icons.shuffle),
+        // backgroundColor: Colors.grey[850],
+        backgroundColor: Colors.white,
+        child: Icon(
+          Icons.shuffle,
+          color: Colors.red.shade600,
+        ),
       ),
       appBar: PreferredSize(
         preferredSize: Size(ScreenSize.width, 50.0),
@@ -93,10 +97,10 @@ class _HomePageState extends State<HomePage> {
           SliverToBoxAdapter(
             child: Topratedmovies(toprated: topratedmovies),
           ),
-           const SliverPadding(padding: EdgeInsets.only(top: 5.0)),
-           SliverToBoxAdapter(
-            child:  Upcomingmovies(upcoming: upcomingmovoies),
-           ),
+          const SliverPadding(padding: EdgeInsets.only(top: 5.0)),
+          SliverToBoxAdapter(
+            child: Upcomingmovies(upcoming: upcomingmovoies),
+          ),
         ],
       ),
     );
